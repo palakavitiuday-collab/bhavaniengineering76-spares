@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bhavani Engineering Boiler Spares</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    line-height:1.6;
+}
+
+header{
+    background:#1f4e79;
+    color:white;
+    text-align:center;
+    padding:60px 20px;
+}
+
+.btn{
+    display:inline-block;
+    background:#25D366;
+    color:white;
+    padding:12px 25px;
+    text-decoration:none;
+    border-radius:5px;
+    margin-top:15px;
+}
+
+section{
+    padding:40px 20px;
+    max-width:1100px;
+    margin:auto;
+}
+
+.products{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    gap:20px;
+}
+
+.card{
+    border:1px solid #ddd;
+    padding:20px;
+    border-radius:8px;
+    text-align:center;
+}
+
+footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Bhavani Engineering Boiler Spares</h1>
+    <p>Trusted Supplier of Boiler Spare Parts Across India</p>
+
+    <a class="btn"
+       href="https://wa.me/918499062626">
+       Contact on WhatsApp
+    </a>
+</header>
+
+<section>
+    <h2>About Us</h2>
+    <p>
+        We supply high-quality boiler spare parts for industrial and commercial
+        boilers. We provide reliable products, competitive pricing, and timely delivery.
+    </p>
+</section>
+
+<section>
+    <h2>Our Products</h2>
+
+    <div class="products">
+
+        <div class="card">
+            <h3>Boiler Tubes</h3>
+            <p>Durable and high-performance tubes.</p>
+        </div>
+
+        <div class="card">
+            <h3>Valves</h3>
+            <p>Safety and control valves for boilers.</p>
+        </div>
+
+        <div class="card">
+            <h3>Gaskets</h3>
+            <p>Heat-resistant industrial gaskets.</p>
+        </div>
+
+        <div class="card">
+            <h3>Burners</h3>
+            <p>Efficient burner systems and spares.</p>
+        </div>
+
+        <div class="card">
+            <h3>Pumps</h3>
+            <p>Boiler feed pumps and accessories.</p>
+        </div>
+
+        <div class="card">
+            <h3>Pressure Gauges</h3>
+            <p>Accurate pressure monitoring solutions.</p>
+        </div>
+
+    </div>
+</section>
+
+<section>
+    <h2>Request a Quote</h2>
+
+    <form>
+        <input type="text" placeholder="BHAVANI ENGINEERING" style="width:100%;padding:10px;margin:10px 0;">
+        <input type="email" placeholder="Email" style="width:100%;padding:10px;margin:10px 0;">
+        <textarea placeholder="Required Spare Parts" style="width:100%;padding:10px;height:120px;margin:10px 0;"></textarea>
+
+        <button type="submit" style="padding:12px 25px;background:#1f4e79;color:white;border:none;">
+            Submit
+        </button>
+    </form>
+</section>
+
+<footer>
+    <p>© 2026 BHAVANI ENGINEERING Boiler Spares | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
